@@ -4,7 +4,7 @@ void main() {
   stdout.write('Enter a letter grade:  ');
   String letter = stdin.readLineSync()!;
 
-    String FourDigit = 'ABCDF';
+    'ABCDF';
 
     if (letter == 'A') {
       print('The numeric value for grade $letter is 4');
