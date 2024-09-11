@@ -1,3 +1,9 @@
+import 'dart:math';
+
 void main() {
-  print(String.fromCharCode(65));
+  int alphabet = 65 + Random().nextInt(27);
+
+  print(alphabet);
+  
+  print(String.fromCharCode(alphabet));
 }
