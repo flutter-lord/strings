@@ -6,7 +6,9 @@ void main() {
 
   stdout.write('Enter the first three letters of the month: ');
   String month = stdin.readLineSync()!;
-  
+
+  final date = DateTime(2017, 9, 7, 17, 30);
+
   
 
   
