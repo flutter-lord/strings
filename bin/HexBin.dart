@@ -1,5 +1,5 @@
-import 'dart:ffi';
-import 'dart:io';
+
+import 'dart:io' show stdin, stdout;
 
 void main() {
   stdout.write('Enter a hexadecimal digit:  ');

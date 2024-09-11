@@ -1,6 +1,4 @@
-import 'dart:convert';
 import 'dart:io';
-import 'dart:math' as math;
 
 void main() {
   stdout.write('Enter an ASCII Code: ');
